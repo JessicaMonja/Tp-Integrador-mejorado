@@ -1,0 +1,63 @@
+.navbar-nav {
+padding-left: 30%; 
+}
+
+.texto{
+    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-left: 30%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%; 
+    margin: 1%; 
+    
+    
+}
+.card-img{
+ filter: brightness(50%);   
+}
+.card-text{
+    
+    color: white;
+}
+.oradores{
+    text-align: center;
+    margin: 2%;
+}
+footer{
+    padding: 0;
+    justify-content: center;
+}
+
+.d-grid button {
+    background-color: yellowgreen;
+}
+
+
+@media screen and (max-width: 570px) { 
+    .cardPortada{
+        font-size: 10px;
+    }
+    .titulo{
+        font-size: 14px;
+
+        }
+     .navbar-brand{
+        font-size: 14px;
+     }   
+     #imgCodo{
+        width: 80px;
+        height: 50px;
+    }  
+    }
+
+    @media screen and (max-width: 609px){
+        .oradores{
+            margin: 2%;
+        }
+    }
+    
+    
